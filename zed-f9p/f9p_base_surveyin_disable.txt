@@ -1,0 +1,7 @@
+# Config changes format version 1.0
+# created by u-center version 18.11 at 11:44:38 on Monday, 26 Nov 2018
+[del]
+[set]
+  RAM CFG-TMODE-MODE       0                    # write value 0 - DISABLED         to item id 20030001 in layer 0
+Flash CFG-TMODE-MODE       0                    # write value 0 - DISABLED         to item id 20030001 in layer 2
+  BBR CFG-TMODE-MODE       0                    # write value 0 - DISABLED         to item id 20030001 in layer 1
