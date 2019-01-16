@@ -8,8 +8,8 @@ https://www.u-blox.com/en/product/c099-f9p-application-board
 ## RELEASE INFO - ODIN-W2 configuration
 
 ### Files
-* odinw2_base_udp_client.txt
-* odinw2_rover_udp_server.txt
+* Base ODIN-W2 Station UDP client.txt
+* Rover ODIN-W2 Access Point UDP Server.txt
 
 ### Dependencies
 u-blox Connectivity Software 5.01/6.0.1 for ODIN-W2
@@ -30,11 +30,11 @@ C099-F9P-AppBoard-ODIN-W2-CSW_UserGuide_(UBX-18055649).
 ## RELEASE INFO - ZED-F9P configuration
 
 ### Files
-* f9p_base_config_forC099.txt
-* f9p_rover_config_forC099.txt
-* f9p_base_surveyin_disable.txt - (a cold start must be sent after this)
-* f9p_base_surveyin_start.txt
-* f9p_moving_base_config_forC099.txt
+* F9P Base config C99.txt
+* F9P Base Survey in disable.txt - (a cold start must be sent after this)
+* F9P Base Survey in start.txt
+* F9P Rover config C99.txt
+* F9P Base moving base config C99.txt
 	  
 ### Notes
 Not compatible with u-center legacy configuration file download. 
