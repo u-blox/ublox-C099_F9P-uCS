@@ -35,6 +35,8 @@ C099-F9P-AppBoard-ODIN-W2-CSW_UserGuide_(UBX-18055649).
 * F9P Base Survey in start.txt
 * F9P Rover config C99.txt
 * F9P Base moving base config C99.txt
+* C99 quick configuration.pdf
+* C99 quick configuration Moving Base.pdf
 	  
 ### Notes
 Not compatible with u-center legacy configuration file download. 
