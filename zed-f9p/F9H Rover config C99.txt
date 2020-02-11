@@ -1,0 +1,27 @@
+# Config changes format version 1.0
+# created by u-center version 18.11 at 11:16:51 on Tuesday, 27 Nov 2018
+[del]
+[set]
+  RAM CFG-UART1INPROT-UBX  1                    # write value 1                    to item id 10730001 in layer 0
+Flash CFG-UART1INPROT-UBX  1                    # write value 1                    to item id 10730001 in layer 2
+  RAM CFG-UART1INPROT-NMEA 0                    # write value 0                    to item id 10730002 in layer 0
+Flash CFG-UART1INPROT-NMEA 0                    # write value 0                    to item id 10730002 in layer 2
+  RAM CFG-UART1INPROT-RTCM3X 1                    # write value 1                    to item id 10730004 in layer 0
+Flash CFG-UART1INPROT-RTCM3X 1                    # write value 1                    to item id 10730004 in layer 2
+  RAM CFG-UART1OUTPROT-UBX 1                    # write value 1                    to item id 10740001 in layer 0
+Flash CFG-UART1OUTPROT-UBX 1                    # write value 1                    to item id 10740001 in layer 2
+  RAM CFG-UART1OUTPROT-NMEA 1                    # write value 1                    to item id 10740002 in layer 0
+Flash CFG-UART1OUTPROT-NMEA 1                    # write value 1                    to item id 10740002 in layer 2
+  RAM CFG-USBINPROT-UBX    1                    # write value 1                    to item id 10770001 in layer 0
+Flash CFG-USBINPROT-UBX    1                    # write value 1                    to item id 10770001 in layer 2
+  RAM CFG-USBINPROT-NMEA   1                    # write value 1                    to item id 10770002 in layer 0
+Flash CFG-USBINPROT-NMEA   1                    # write value 1                    to item id 10770002 in layer 2
+  RAM CFG-USBINPROT-RTCM3X 1                    # write value 1                    to item id 10770004 in layer 0
+Flash CFG-USBINPROT-RTCM3X 1                    # write value 1                    to item id 10770004 in layer 2
+  RAM CFG-USBOUTPROT-UBX   1                    # write value 1                    to item id 10780001 in layer 0
+Flash CFG-USBOUTPROT-UBX   1                    # write value 1                    to item id 10780001 in layer 2
+Flash CFG-USBOUTPROT-NMEA  1                    # write value 1                    to item id 10780002 in layer 2
+Flash CFG-UART1-BAUDRATE   0x70800              # write value 460800  0x70800      to item id 40520001 in layer 2
+  RAM CFG-UART1-BAUDRATE   0x70800              # write value 460800  0x70800      to item id 40520001 in layer 0
+
+  
