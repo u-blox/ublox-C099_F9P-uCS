@@ -1,51 +1,46 @@
 # Config changes format version 1.0
-# created by u-center version 18.11 at 16:06:28 on Monday, 07 Jan 2019
+# created by u-center version 20.02 at 14:12:32 on Friday, 05 Jun 2020
 [del]
 [set]
-  RAM CFG-UART1INPROT-NMEA 0                    # write value 0                    to item id 10730002 in layer 0
-Flash CFG-UART1INPROT-NMEA 0                    # write value 0                    to item id 10730002 in layer 2
-  RAM CFG-UART1INPROT-RTCM3X 0                    # write value 0                    to item id 10730004 in layer 0
-Flash CFG-UART1INPROT-RTCM3X 0                    # write value 0                    to item id 10730004 in layer 2
-  RAM CFG-UART1OUTPROT-UBX 0                    # write value 0                    to item id 10740001 in layer 0
-Flash CFG-UART1OUTPROT-UBX 0                    # write value 0                    to item id 10740001 in layer 2
-  RAM CFG-UART1OUTPROT-NMEA 0                    # write value 0                    to item id 10740002 in layer 0
-Flash CFG-UART1OUTPROT-NMEA 0                    # write value 0                    to item id 10740002 in layer 2
-  RAM CFG-UART1OUTPROT-RTCM3X 1                    # write value 1                    to item id 10740004 in layer 0
-Flash CFG-UART1OUTPROT-RTCM3X 1                    # write value 1                    to item id 10740004 in layer 2
-Flash CFG-UART1INPROT-UBX  0                    # write value 0                    to item id 10730001 in layer 2
-  RAM CFG-UART1INPROT-UBX  0                    # write value 0                    to item id 10730001 in layer 0
-  RAM CFG-MSGOUT-RTCM_3X_TYPE4072_0_UART1 0x1                  # write value 1  0x1               to item id 209102ff i
-Flash CFG-MSGOUT-RTCM_3X_TYPE4072_0_UART1 0x1                  # write value 1  0x1               to item id 209102ff i
-  RAM CFG-MSGOUT-RTCM_3X_TYPE4072_1_UART1 0x1                  # write value 1  0x1               to item id 20910382 i
-Flash CFG-MSGOUT-RTCM_3X_TYPE4072_1_UART1 0x1                  # write value 1  0x1               to item id 20910382 i
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1077_UART1 0x1                  # write value 1  0x1               to item id 209102cd in 
-Flash CFG-MSGOUT-RTCM_3X_TYPE1077_UART1 0x1                  # write value 1  0x1               to item id 209102cd in 
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1087_UART1 0x1                  # write value 1  0x1               to item id 209102d2 in 
-Flash CFG-MSGOUT-RTCM_3X_TYPE1087_UART1 0x1                  # write value 1  0x1               to item id 209102d2 in 
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1097_UART1 0x1                  # write value 1  0x1               to item id 20910319 in 
-Flash CFG-MSGOUT-RTCM_3X_TYPE1097_UART1 0x1                  # write value 1  0x1               to item id 20910319 in 
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1127_UART1 0x1                  # write value 1  0x1               to item id 209102d7 in 
-Flash CFG-MSGOUT-RTCM_3X_TYPE1127_UART1 0x1                  # write value 1  0x1               to item id 209102d7 in 
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1230_UART1 0x1                  # write value 1  0x1               to item id 20910304 in 
-Flash CFG-MSGOUT-RTCM_3X_TYPE1230_UART1 0x1                  # write value 1  0x1               to item id 20910304 in 
-  RAM CFG-MSGOUT-RTCM_3X_TYPE4072_0_USB 0x1                  # write value 1  0x1               to item id 20910301 in 
-Flash CFG-MSGOUT-RTCM_3X_TYPE4072_0_USB 0x1                  # write value 1  0x1               to item id 20910301 in 
-  RAM CFG-MSGOUT-RTCM_3X_TYPE4072_1_USB 0x1                  # write value 1  0x1               to item id 20910384 in 
-Flash CFG-MSGOUT-RTCM_3X_TYPE4072_1_USB 0x1                  # write value 1  0x1               to item id 20910384 in 
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1077_USB 0x1                  # write value 1  0x1               to item id 209102cf in la
-Flash CFG-MSGOUT-RTCM_3X_TYPE1077_USB 0x1                  # write value 1  0x1               to item id 209102cf in la
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1087_USB 0x1                  # write value 1  0x1               to item id 209102d4 in la
-Flash CFG-MSGOUT-RTCM_3X_TYPE1087_USB 0x1                  # write value 1  0x1               to item id 209102d4 in la
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1097_USB 0x1                  # write value 1  0x1               to item id 2091031b in la
-Flash CFG-MSGOUT-RTCM_3X_TYPE1097_USB 0x1                  # write value 1  0x1               to item id 2091031b in la
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1127_USB 0x1                  # write value 1  0x1               to item id 209102d9 in la
-Flash CFG-MSGOUT-RTCM_3X_TYPE1127_USB 0x1                  # write value 1  0x1               to item id 209102d9 in la
-  RAM CFG-MSGOUT-RTCM_3X_TYPE1230_USB 0x1                  # write value 1  0x1               to item id 20910306 in la
-Flash CFG-MSGOUT-RTCM_3X_TYPE1230_USB 0x1                  # write value 1  0x1               to item id 20910306 in la
-  RAM CFG-MSGOUT-UBX_NAV_PVT_USB 0x1                  # write value 1  0x1               to item id 20910009 in layer 0
-Flash CFG-MSGOUT-UBX_NAV_PVT_USB 0x1                  # write value 1  0x1               to item id 20910009 in layer 2
-  RAM CFG-MSGOUT-UBX_NAV_SVIN_USB 0x1                  # write value 1  0x1               to item id 2091008b in layer 
-Flash CFG-MSGOUT-UBX_NAV_SVIN_USB 0x1                  # write value 1  0x1               to item id 2091008b in layer 
-Flash CFG-UART1-BAUDRATE   0x70800              # write value 460800  0x70800      to item id 40520001 in layer 2
-  RAM CFG-UART1-BAUDRATE   0x70800              # write value 460800  0x70800      to item id 40520001 in layer 0
-
+  RAM CFG-UART1INPROT-NMEA 0                    # write value 0                    to item id 0x10730002 in layer 0
+Flash CFG-UART1INPROT-NMEA 0                    # write value 0                    to item id 0x10730002 in layer 2
+  RAM CFG-UART1INPROT-RTCM3X 0                    # write value 0                    to item id 0x10730004 in layer 0
+Flash CFG-UART1INPROT-RTCM3X 0                    # write value 0                    to item id 0x10730004 in layer 2
+  RAM CFG-UART1OUTPROT-UBX 0                    # write value 0                    to item id 0x10740001 in layer 0
+Flash CFG-UART1OUTPROT-UBX 0                    # write value 0                    to item id 0x10740001 in layer 2
+  RAM CFG-UART1OUTPROT-NMEA 0                    # write value 0                    to item id 0x10740002 in layer 0
+Flash CFG-UART1OUTPROT-NMEA 0                    # write value 0                    to item id 0x10740002 in layer 2
+  RAM CFG-UART1OUTPROT-RTCM3X 1                    # write value 1                    to item id 0x10740004 in layer 0
+Flash CFG-UART1OUTPROT-RTCM3X 1                    # write value 1                    to item id 0x10740004 in layer 2
+Flash CFG-UART1INPROT-UBX  0                    # write value 0                    to item id 0x10730001 in layer 2
+  RAM CFG-UART1INPROT-UBX  0                    # write value 0                    to item id 0x10730001 in layer 0
+  RAM CFG-MSGOUT-RTCM_3X_TYPE4072_0_UART1 0x1                  # write value 1  0x1               to item id 0x209102ff
+Flash CFG-MSGOUT-RTCM_3X_TYPE4072_0_UART1 0x1                  # write value 1  0x1               to item id 0x209102ff
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1074_UART1 0x1                  # write value 1  0x1               to item id 0x2091035f i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1074_UART1 0x1                  # write value 1  0x1               to item id 0x2091035f i
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1084_UART1 0x1                  # write value 1  0x1               to item id 0x20910364 i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1084_UART1 0x1                  # write value 1  0x1               to item id 0x20910364 i
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1094_UART1 0x1                  # write value 1  0x1               to item id 0x20910369 i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1094_UART1 0x1                  # write value 1  0x1               to item id 0x20910369 i
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1124_UART1 0x1                  # write value 1  0x1               to item id 0x2091036e i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1124_UART1 0x1                  # write value 1  0x1               to item id 0x2091036e i
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1230_UART1 0x1                  # write value 1  0x1               to item id 0x20910304 i
+Flash CFG-MSGOUT-RTCM_3X_TYPE1230_UART1 0x1                  # write value 1  0x1               to item id 0x20910304 i
+  RAM CFG-MSGOUT-RTCM_3X_TYPE4072_0_USB 0x1                  # write value 1  0x1               to item id 0x20910301 i
+Flash CFG-MSGOUT-RTCM_3X_TYPE4072_0_USB 0x1                  # write value 1  0x1               to item id 0x20910301 i
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1074_USB 0x1                  # write value 1  0x1               to item id 0x20910361 in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1074_USB 0x1                  # write value 1  0x1               to item id 0x20910361 in 
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1084_USB 0x1                  # write value 1  0x1               to item id 0x20910366 in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1084_USB 0x1                  # write value 1  0x1               to item id 0x20910366 in 
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1094_USB 0x1                  # write value 1  0x1               to item id 0x2091036b in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1094_USB 0x1                  # write value 1  0x1               to item id 0x2091036b in 
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1124_USB 0x1                  # write value 1  0x1               to item id 0x20910370 in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1124_USB 0x1                  # write value 1  0x1               to item id 0x20910370 in 
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1230_USB 0x1                  # write value 1  0x1               to item id 0x20910306 in 
+Flash CFG-MSGOUT-RTCM_3X_TYPE1230_USB 0x1                  # write value 1  0x1               to item id 0x20910306 in 
+  RAM CFG-MSGOUT-UBX_NAV_PVT_USB 0x1                  # write value 1  0x1               to item id 0x20910009 in layer
+Flash CFG-MSGOUT-UBX_NAV_PVT_USB 0x1                  # write value 1  0x1               to item id 0x20910009 in layer
+  RAM CFG-MSGOUT-UBX_NAV_SVIN_USB 0x1                  # write value 1  0x1               to item id 0x2091008b in laye
+Flash CFG-MSGOUT-UBX_NAV_SVIN_USB 0x1                  # write value 1  0x1               to item id 0x2091008b in laye
+Flash CFG-UART1-BAUDRATE   0x70800              # write value 460800  0x70800      to item id 0x40520001 in layer 2
+  RAM CFG-UART1-BAUDRATE   0x70800              # write value 460800  0x70800      to item id 0x40520001 in layer 0
